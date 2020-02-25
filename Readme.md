@@ -1,10 +1,4 @@
-﻿### Workflow:
-1. Select cell where you want to insert values.
-2. Click "add" button in order to open dialog box with options.
-3. Select options.
-4. Click "Send" button.
-
-### In order to add next option to list:   
+﻿### In order to add next option to list:   
 1) In view.html add:   
 
 ```
@@ -17,6 +11,13 @@
 2) In ``processForm`` function add ``options.push(formObject.x);`` line, 
  where x is the name attribute of input element from form in view.html (eg. ``<input name= 'option3' type="checkbox" value="option3" />``).  
 3) Create new button and assign ``showDialog`` function to it.
+
+### Workflow:
+1. Select cell where you want to insert values.
+2. Click "add" button in order to open dialog box with options.
+3. Select options.
+4. Click "Send" button.
+
 
 Screenshots:    
 ![box](box.png)    
