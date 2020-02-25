@@ -4,9 +4,7 @@
 3. Select options.
 4. Click "Add" button.
 
-The rest of the instruction is in the Code.gs file.
-
-###In order to add next option to list:   
+### In order to add next option to list:   
 1) In view.html add:   
 
 ```
