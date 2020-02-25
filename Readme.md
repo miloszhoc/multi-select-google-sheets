@@ -1,8 +1,8 @@
 ﻿### Workflow:
 1. Select cell where you want to insert values.
-2. Click button in order to open dialog box with options.
+2. Click "add" button in order to open dialog box with options.
 3. Select options.
-4. Click "Add" button.
+4. Click "Send" button.
 
 ### In order to add next option to list:   
 1) In view.html add:   
