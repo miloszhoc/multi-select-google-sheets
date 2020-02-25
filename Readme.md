@@ -15,7 +15,7 @@
    </label>   
 ```   
 2) In ``processForm`` function add ``options.push(formObject.x);`` line, 
- where x is input's name from form in view.html (eg. ``<input name= 'option3' type="checkbox" value="option3" />``).  
+ where x is the name attribute of input element from form in view.html (eg. ``<input name= 'option3' type="checkbox" value="option3" />``).  
 3) Create new button and assign ``showDialog`` function to it.
 
 Screenshots:    
