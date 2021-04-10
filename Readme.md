@@ -1,25 +1,1 @@
-﻿### In order to add next option to list:   
-1) In view.html add:   
-
-```
-  <label class="container">   
-       X - this is visible in dialog box   
-       <input name= 'x' type="checkbox" value="x" /> - name should be unique, value is visible in your sheet   
-       <span class="checkmark"></span>  
-   </label>   
-```   
-2) In ``processForm`` function add ``options.push(formObject.x);`` line, 
- where x is the name attribute of input element from form in view.html (eg. ``<input name= 'option3' type="checkbox" value="option3" />``).  
-3) Create new button and assign ``showDialog`` function to it.
-
-### Workflow:
-1. Select cell where you want to insert values.
-2. Click "add" button in order to open dialog box with options.
-3. Select options.
-4. Click "Send" button.
-
-
-Screenshots:    
-![box](box.png)    
-![sheet](sheet.png)    
-
+﻿Script for google sheets which allows user to select multiple values from dialog. User defines these values in A1 cell.     ### Installation1. In order to add this script to google sheet go to Tools -> script editor.    ![script_editor](./images/sheet_install_1.png)2. In this repository open Code.gs file and copy all its content to Code.gs file in script editor.3. In script editor add new HTML file, name it view.html and copy there content of view.html file.4. Authorize newly added script to access your data.5. Create new button and assign ``showDialog`` function to it.### Workflow:1. In cell A1 add comma separated values (You can change cell in `get_options` function).  1. Select cell where you want to insert values.2. Click button in order to open dialog box.3. Select options.4. Click "Add" button.Screenshots:    ![box](./images/box.png)    ![sheet](./images/sheet.png)    
